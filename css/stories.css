@@ -1,0 +1,92 @@
+/* Lists of stories */
+
+.stories-list {
+  margin: 20px 5px;
+}
+/*
+.stories-list > li {
+  color: gray;
+  font-size: 0.8rem;
+  margin: 10px 0;
+}
+*/
+.stories-list > li:nth-of-type(2n) {
+  color: rgb(21, 152, 7);
+  font-size: 0.8rem;
+  margin: 10px 0;
+  background-color: rgb(246, 208, 238);
+}
+
+.stories-list > li:nth-of-type(2n+1) {
+  color: rgb(238, 151, 151);
+  font-size: 0.8rem;
+  margin: 10px 0;
+  background-color: rgb(185, 239, 199);
+}
+
+.class_favorite_stories > li:nth-of-type(2n) {
+  background-color: rgb(239, 185, 227);
+}
+
+.class_favorite_stories > li:nth-of-type(2n+1) {
+  background-color: rgb(185, 239, 199);
+}
+
+.class_created_stories > li:nth-of-type(2n) {
+  background-color: rgb(239, 185, 227);
+}
+
+.class_created_stories > li:nth-of-type(2n+1) {
+  background-color: rgb(185, 239, 199);
+}
+  
+#stories-loading-msg {
+  font-weight: bold;
+  font-size: 150%;
+  margin: 20px 30px;
+}
+
+
+/* Individual stories */
+
+.story-link {
+  color: black;
+  font-size: 0.85rem;
+  font-weight: normal;
+  margin: 18px 0;
+}
+
+.story-link:hover {
+  text-decoration: none;
+  color:rgb(118, 10, 101);
+  font-weight: bold;
+}
+
+.story-hostname:hover{
+  color:rgb(105, 47, 15);
+  font-weight: bold;
+}
+
+.story-author {
+  margin-left: 2em;
+  color: rgb(73, 6, 6);
+}
+
+.story-user {
+  display: block;
+  color: rgb(12, 6, 83);
+}
+
+.favHeart{
+  color: rgb(233, 41, 31);
+}
+
+.favHeart:hover {
+  cursor: grabbing;
+  color: rgb(200, 63, 205);
+}
+
+.fa-minus:hover {
+  cursor: pointer;
+  color: red;
+}

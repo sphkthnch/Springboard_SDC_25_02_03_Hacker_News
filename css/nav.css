@@ -1,0 +1,35 @@
+/* Navigation bar */
+
+nav {
+  display: flex;
+  background-color: #ff6600;
+  align-items: center;
+  padding: 5px 20px;
+  border-radius: 3px 3px 0 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 0.85rem;
+  margin: 0 3px; 
+}
+
+.nav-right {
+  margin-left: auto;
+  text-align: right;
+}
+
+#id_nav_submit_new_story,
+#id_nav_show_favorite_stories,
+#id_nav_show_owned_stories{
+  text-decoration:  blueviolet;
+  color: pink;
+  cursor: pointer;
+  margin: 0 10px;
+  border: dashed rgba(3, 66, 36, 0.348);
+  border-radius: 5%;
+  background-color: blueviolet;
+}
