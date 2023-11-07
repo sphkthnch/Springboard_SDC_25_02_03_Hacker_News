@@ -6,7 +6,7 @@
 
 - git init
 - git add .\index.html .\README.md  
-- git commit -m "simple practice for the Springboard SDC
+- git commit -m "commit the code of hack or snooze"
 - git branch -M main
-- git remote add origin https://github.com/sphkthnch/Springboard_SDC_11_05_github_exercise_simple.git
+- git remote add origin https://github.com/sphkthnch/Springboard_SDC_25_02_03_Hacker_News.git
 - git push -u origin main
